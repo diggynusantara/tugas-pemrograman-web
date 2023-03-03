@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<katalog>
+		<daftar>
+			<study>Biologi</study>
+		</daftar>
+		<daftar>
+			<study>Ekonomi dan Bisnis</study>
+		</daftar>
+        <daftar>
+			<study>Farmasi</study>
+		</daftar>
+        <daftar>
+			<study>Geografi</study>
+		</daftar>
+        <daftar>
+			<study>Hukum</study>
+		</daftar>
+        <daftar>
+			<study>Kedokteran</study>
+		</daftar>
+		<daftar>
+			<study>Pertanian</study>
+		</daftar>
+        <daftar>
+			<study>Teknik</study>
+		</daftar>
+	</katalog>

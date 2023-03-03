@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Web</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+<body>
+
+	<!-- bagian header template -->
+	<header>
+		<h1 class="judul">^_^ WELCOME TO MY BIODATA ^_^</h1>
+		<p class="deskripsi">Make your dream come true with your spirit.</p>
+	</header>
+	<!-- akhir bagian header template -->
+	
+	<div class="wrap">
+		<!-- bagian menu -->
+		<nav class="menu">
+			<ul>
+				<li>
+					<a href="responsive.html">Home</a>
+				</li>
+				<li>
+					<a href="deskripsi.html">Deskripsi</a>
+				</li>
+				<li>
+					<a href="form.html">Form</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- akhir bagian menu -->
+ 
+		<!-- bagian sidebar website -->
+		<aside class="sidebar">
+			<div class="widget">
+				<h2>About Me</h2>
+				<p>Nama saya Diggy Bani Nusantara. Sebuah nama yang memiliki arti "Pemuda Keturunan Nusantara". Saya lahir di Tegal, pada tanggal 9 Juni 2000. Saya bercita-cita menjadi programmer handal yang bisa membuat software seperti idola saya yaitu Bill Gates.</p>
+			</div>
+			<div class="widget">
+				<h2>Contact</h2>
+				<p>Email : diggynusantara@gmail.com</p>
+			</div>
+		</aside>
+		<!-- akhir bagian sidebar website -->
+ 
+		<!-- bagian konten Blog -->
+		<div class="blog">
+			<div class="conteudo">
+				<div class="form">
+					<form action="assets/form.php" method="GET">
+						<table>
+							<tr>
+								<td>Nama Lengkap</td>
+								<td>: 
+									<input type="text" name="nama_lengkap"></td>
+							</tr>
+							<tr>
+								<td>Password</td>
+								<td>: 
+									<input type="Password" name="password"></td>
+							</tr>
+							<tr>
+								<td>Jenis Kelamin</td>
+								<td>: 
+									<input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
+									<input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</td>
+							</tr>
+							<tr>
+								<td>Hobi</td>
+								<td>: 
+									<input type="checkbox" name="hobi" value="Menggambar" /> Menggambar
+									<input type="checkbox" name="hobi" value="Berenang" /> Berenang
+									<input type="checkbox" name="hobi" value="Main Game" /> Main Game</td>
+							</tr>
+							<tr>
+								<td>Asal</td>
+								<td>: 
+								<select name="kota">
+									<option value="Empty" selected>Pilih Kota</option>
+									<option value="Jakarta">Jakarta</option>
+									<option value="Bandung">Bandung</option>
+									<option value="Semarang">Semarang</option>
+									<option value="Surabaya">Surabaya</option>
+								</select></td>
+							</tr>
+							<tr>
+								<td>Alamat Lengkap</td> 
+								<td><textarea name="alamat_lengkap" rows="3" cols="40"></textarea></td>
+								</td>
+							</tr>
+							<tr>
+								<td><input type="submit" name="Save" value="Save"></td>
+								<td><input type="reset" value="Reset"></td>
+							</tr>
+						</table>
+					</form></br>
+				</div>
+			</div>
+		</div>
+		<!-- akhir bagian konten Blog -->
+	</div>
+	<div class="footer">
+			<h4>Copyright &copy; 2018 <a href="#">Diggy Nusantara</a></h4>
+	</div>
+	<!--/ footer -->
+ 
+</body>
+</html>

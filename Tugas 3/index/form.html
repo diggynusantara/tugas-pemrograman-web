@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head><title>FORMULIR</title></head>
+	<body>
+		&#9658 <a href="navigasi.html">Navigasi</a></br>
+		&#9658 <a href="biodata.html">Biodata</a></br>
+		&#9658 <a href="deskripsi.html">Deskripsi</a></br>
+		&#9658 <a href="krs.html">Kartu Rencana Studi</a></br>
+		&#9658 <a href="form.html">Formulir</a></br>
+		&#9658 <a href="home.html">Kembali ke Awal</a></br>
+		<br>
+			<hr align="nilai">
+		<br>
+		<form action="form.php" method="GET">
+			<table border="0">
+				<tr>
+					<td>Nama Lengkap</td>
+					<td>: 
+						<input type="text" name="nama_lengkap"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>: 
+						<input type="Password" name="password"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>: 
+						<input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
+						<input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</td>
+				</tr>
+				<tr>
+					<td>Hobi</td>
+					<td>: 
+						<input type="checkbox" name="hobi" value="Menggambar" /> Menggambar
+						<input type="checkbox" name="hobi" value="Berenang" /> Berenang
+						<input type="checkbox" name="hobi" value="Main Game" /> Main Game</td>
+				</tr>
+				<tr>
+					<td>Asal</td>
+					<td>: 
+					<select name="kota">
+						<option value="Empty" selected>Pilih Kota</option>
+						<option value="Jakarta">Jakarta</option>
+						<option value="Bandung">Bandung</option>
+						<option value="Semarang">Semarang</option>
+						<option value="Surabaya">Surabaya</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Alamat Lengkap</td> 
+					<td><textarea name="alamat_lengkap" rows="3" cols="40"></textarea></td>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="Save" value="Save"></td>
+					<td><input type="reset" value="Reset"></td>
+				</tr>
+			</table>
+		</form></br>
+		<h4 align="center">Website Resmi Universitas Dian Nuswantoro</h4>
+		<h4 align="center"><a href="http://www.dinus.ac.id">www.dinus.ac.id</a></h4></br>
+		<audio src="assets/bgm.mp3" width="1024" height="540" autoplay controls loop hidden="hidden"></audio>
+	</body>
+</html>

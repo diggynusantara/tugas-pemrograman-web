@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Myself | Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">DIGGY NUSANTARA</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="description.html">Description</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">Table</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Join The Form Below</h1>
+              <span class="subheading">Make your dream come true with your spirit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <form action="assets/form.php" method="GET">
+			<table border="0">
+				<tr>
+					<td>Nama Lengkap</td>
+					<td>: 
+						<input type="text" name="nama_lengkap"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>: 
+						<input type="Password" name="password"></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin</td>
+					<td>: 
+						<input type="radio" name="jenis_kelamin" value="Laki-laki">Laki-laki
+						<input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan</td>
+				</tr>
+				<tr>
+					<td>Hobi</td>
+					<td>: 
+						<input type="checkbox" name="hobi" value="Menggambar" /> Menggambar
+						<input type="checkbox" name="hobi" value="Berenang" /> Berenang
+						<input type="checkbox" name="hobi" value="Main Game" /> Main Game</td>
+				</tr>
+				<tr>
+					<td>Asal</td>
+					<td>: 
+					<select name="kota">
+						<option value="Empty" selected>Pilih Kota</option>
+						<option value="Jakarta">Jakarta</option>
+						<option value="Bandung">Bandung</option>
+						<option value="Semarang">Semarang</option>
+						<option value="Surabaya">Surabaya</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Alamat Lengkap</td> 
+					<td><textarea name="alamat_lengkap" rows="3" cols="40"></textarea></td>
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="Save" value="Save"></td>
+					<td><input type="reset" value="Reset"></td>
+				</tr>
+			</table>
+		</form></br>
+		<h4 align="center">Website Resmi Universitas Dian Nuswantoro</h4>
+		<h4 align="center"><a href="http://www.dinus.ac.id">www.dinus.ac.id</a></h4></br>
+		<audio src="assets/bgm.mp3" width="1024" height="540" autoplay controls loop hidden="hidden"></audio>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Myself 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>

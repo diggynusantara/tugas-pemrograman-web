@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM | Document</title>
+    </head>
+    <body>
+        <!--Menampilkan Dengan ID-->
+        <p id='contoh'>
+            Hai, Selamat Pagi Semua
+        </p>
+        <script type="text/javascript">
+            x = document.getElementById("contoh");
+            contoh = x.firstChild.nodeValue;
+            document.write(contoh);
+        </script>
+        <!--Tampilkan Pesan-->
+        <div id="pesan"></div>
+        <button onclick="TampilPesan()">Pesan</button>
+        <script type="text/javascript">
+            function TampilPesan()
+            {
+                var pesan = document.getElementById('pesan');
+                pesan.innerHTML = "<h1>Ini Tampilan Pesan</h1>";
+            }
+        </script>
+        <!--Menampilkan Kota-->
+        <script type="text/javascript" src="event.js"></script>
+        <p>Menampilkan Beberapa Kota :</p>
+        <form>
+            <select name="provinsi" onchange="TampilKota(this.value)";>
+                <option value=""></option>
+                <option value="Jabar">Jawa Barat</option>
+                <option value="Jateng">Jawa Tengah</option>
+                <option value="Jatim">Jawa Timur</option>
+            </select>
+        </form>
+        <div id='kota'></div>
+        <!--Tombol Mengganti Warna Background-->
+        <div id="message"><h1>Selamat Hari Natal dan Tahun Baru</h1></div>
+        <button id="ButtonWarna" onclick="GantiWarna()">Cyan</button>
+        <script type="text/javascript">
+            function GantiWarna()
+            {
+                var message = document.getElementById('message');
+                var button = document.getElementById('ButtonWarna');
+                if(button.innerHTML=="Cyan")
+                {
+                    message.style.cssText = "background-color: cyan;";
+                    button.innerHTML = "Merah";
+                }
+                else if(button.innerHTML=="Merah")
+                {
+                    message.style.cssText = "background-color: red;";
+                    button.innerHTML = "Cyan";
+                }
+            }
+        </script>
+    </body>
+</html>

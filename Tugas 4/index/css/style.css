@@ -1,0 +1,65 @@
+.wrap{
+	background: #ffeead;
+	width: auto;
+	margin: 5px;
+}
+ 
+/*bagian header*/
+.wrap .header{
+	background: #96ceb4;
+	/*height: 50px;*/
+	padding: 2px 10px;
+	text-align: center;
+	margin: 5px;
+}
+ 
+/*akhir header*/
+ 
+/*bagian menu*/
+.wrap .menu{
+	background: #96ceb4;
+	margin: 5px;
+}
+ 
+.wrap .menu ul{
+	padding: 0;
+	margin: 0;
+	background: #96ceb4;
+	overflow: hidden;
+}
+ 
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+}
+/*akhir menu*/
+ 
+.clear{
+	clear: both;
+}
+ 
+.badan{
+	height: 450px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background: #ffeead;
+	float: left;	
+	width: 15%;
+	height: auto;
+}
+ 
+/*akhir sidebar*/
+ 
+.wrap .badan .content{
+	background: #9c8d50;
+	float: left;
+	width: 85%;
+	height: auto;
+}
+ 
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+}
